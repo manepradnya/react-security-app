@@ -56,12 +56,12 @@ const Footer = () => {
           <form>
             <h3>Join Our Team</h3>
             <input type="email" placeholder="Enter your email" />
-                      <FiMail className={ styles.mail_icon} />
+            <FiMail className={ styles.mail_icon} />
           </form>
             <div className={ styles.social_group}>
-                      <FiInstagram className={styles.social_icon} size={ 25} />
-            <FiFacebook className={styles.social_icon} size={ 25} />
-            <FiLinkedin className={styles.social_icon} size={ 25} />
+             <a href="/"> <FiInstagram className={styles.social_icon} size={ 25} /></a>
+             <a href="/"> <FiFacebook className={styles.social_icon} size={ 25} /></a>
+             <a href="/"> <FiLinkedin className={styles.social_icon} size={ 25} /></a>
           </div>
         </div>
       </div>
