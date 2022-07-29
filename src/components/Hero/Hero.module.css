@@ -1,0 +1,8 @@
+.hero_sec{background:url('../../images/cyber-bg.png') no-repeat;background-position:center;background-size:cover; height: 100vh;}
+.hero_sec *{color:var(--white);}
+.hero_sec .blue{color:var(--primary-color);}
+.hero_sec h1:not(:last-child) {margin-bottom: 0;}
+
+@media(max-width:767px){
+    .hero_sec{height: 50vh;}
+}
