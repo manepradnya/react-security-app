@@ -1,43 +1,20 @@
-.header_sec {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  padding: 20px 0;
-}
-.header_sec * {
-  color: var(--white);
-}
-.header_sec h1 {
-  font-weight: 400;
-}
-.header_sec .left_col {
-  width: 48%;
-  margin-right: 4%;
-}
-.header_sec .right_col {
-  width: 48%;
-  display: flex;
-  justify-content: flex-end;
-}
-.header_sec .logo a{
-    max-width: 220px;
-    display: flex;
-    margin: 0 !important;
-    align-items: center;
-    font-size: 40px;
-    justify-content: space-between;
-}
-.header_sec .icon path{color: var(--primary-color);}
-.header_sec .menu{display: flex;width: 100%;justify-content: space-between;margin: 0 !important;}
-.header_sec .menu li{margin: 0 !important;}
-.header_sec .menu li:hover{color: var(--primary-color);cursor: pointer;}
-.header_sec .hamburger{display: none;}
-.header_sec .hamburger svg path{color: var(--white);stroke: var(--white);}
+.header_sec{position:absolute;z-index:10;width:100%;padding:20px 0;}
+.header_sec *{color:var(--white);}
+.header_sec h1{font-weight:400;}
+.header_sec .left_col{width:48%;margin-right:4%;}
+.header_sec .right_col{width:48%;display:flex;justify-content:flex-end;}
+.header_sec .logo a{max-width:220px;display:flex;margin:0 !important;align-items:center;font-size:40px;justify-content:space-between;}
+.header_sec .icon path{color:var(--primary-color);}
+.header_sec .menu{display:flex;width:100%;justify-content:space-between;margin:0 !important;}
+.header_sec .menu li{margin:0 !important;}
+.header_sec .menu li:hover{color:var(--primary-color);cursor:pointer;}
+.header_sec .hamburger{display:none;}
+.header_sec .hamburger svg path{color:var(--white);stroke:var(--white);}
 
-@media screen and (max-width: 767px) {
-  .header_sec .hamburger{display:block;z-index:15;}
-  .header_sec .menu{position:absolute;flex-direction:column;width:100%;height:100vh;top:0;left:-100%;background-color:rgba(0,0,0,.8);justify-content:center;align-items:center;transition:left 1s;}
-  .header_sec .menu li{font-size: 20px;}
-  .header_sec .active{left: 0;}
-  
+
+@media screen and (max-width:767px){.header_sec .hamburger{display:block;z-index:15;}
+.header_sec .menu{position:absolute;flex-direction:column;width:100%;height:100vh;top:0;left:-100%;background-color:rgba(0,0,0,.8);justify-content:center;align-items:center;transition:left 1s;}
+.header_sec .menu li{font-size:20px;}
+.header_sec .active{left:0;}
+.header_sec .logo a{max-width:180px;display:flex;margin:0 !important;align-items:center;font-size:30px;justify-content:space-between;}
 }

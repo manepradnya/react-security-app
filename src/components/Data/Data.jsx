@@ -8,8 +8,8 @@ const Data = () => {
               <div className={ styles.content }>
             <h2><span>Data</span> Recovery</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
-            <div className='primary_btn'>
-            <a href="/">Sign Up</a>
+            <div>
+            <a href="/" className='primary_btn'>Sign Up</a>
             </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const Header = () => {
                   <div className={styles.logo}>
                       <a href="/">
                         <SiDatabricks className={styles.icon} size={40}/>
-                        Secured
+                        Secured.
                       </a>
                   </div>
               </div>
