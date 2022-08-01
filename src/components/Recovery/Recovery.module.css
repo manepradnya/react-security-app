@@ -1,0 +1,11 @@
+.recovery_sec{width:100%;padding:22% 0;background:url('../../images/recovery-bg.png') no-repeat center center/cover;position:relative;z-index:1;}
+.recovery_sec:before{content:'';position:absolute;background:rgba(0,0,0,.4);height:100%;width:100%;z-index:-1;top:0;}
+.recovery_sec span{color:var(--primary-color);}
+.recovery_sec *{color:var(--white);}
+.recovery_sec .content{width:50%;}
+
+@media screen and (max-width:1024px){.recovery_sec{padding:14% 0;}
+}
+@media screen and (max-width:767px){.recovery_sec{padding:14% 0;}
+.recovery_sec .content{width:100%;}
+}

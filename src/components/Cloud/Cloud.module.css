@@ -2,7 +2,7 @@
 .cloud_sec:before{content:'';position:absolute;background:rgba(0,0,0,.3);height:100%;width:100%;z-index:-1;}
 .cloud_sec .content *{color:var(--white);}
 .cloud_sec .content{width:45%;}
-.cloud_sec span{color:var(--primary-color);}
+.cloud_sec .content span{color:var(--primary-color);}
 
 @media screen and (max-width:991px){
     .cloud_sec{padding:11% 0;}
