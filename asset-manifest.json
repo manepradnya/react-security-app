@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-security-app/static/css/main.9761e0f3.css",
-    "main.js": "/react-security-app/static/js/main.fa3170fb.js",
-    "static/media/footer-bg.jpg": "/react-security-app/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
-    "static/media/cloud-bg.png": "/react-security-app/static/media/cloud-bg.0200b749df2f917185c5.png",
-    "static/media/contact-bg.png": "/react-security-app/static/media/contact-bg.c2dab7563f17c5593f16.png",
-    "static/media/recovery-bg.png": "/react-security-app/static/media/recovery-bg.68d2b26aa7dc4d5fa0fd.png",
-    "static/media/cyber-bg.png": "/react-security-app/static/media/cyber-bg.8dabbdf3c6d3e309f798.png",
-    "static/media/data-bg.png": "/react-security-app/static/media/data-bg.e59a7453e923affba391.png",
-    "index.html": "/react-security-app/index.html",
-    "main.9761e0f3.css.map": "/react-security-app/static/css/main.9761e0f3.css.map",
-    "main.fa3170fb.js.map": "/react-security-app/static/js/main.fa3170fb.js.map"
+    "main.css": "/react-security-app/public/index.html/static/css/main.c9750c7f.css",
+    "main.js": "/react-security-app/public/index.html/static/js/main.fa3170fb.js",
+    "static/media/footer-bg.jpg": "/react-security-app/public/index.html/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
+    "static/media/cloud-bg.png": "/react-security-app/public/index.html/static/media/cloud-bg.0200b749df2f917185c5.png",
+    "static/media/contact-bg.png": "/react-security-app/public/index.html/static/media/contact-bg.c2dab7563f17c5593f16.png",
+    "static/media/recovery-bg.png": "/react-security-app/public/index.html/static/media/recovery-bg.68d2b26aa7dc4d5fa0fd.png",
+    "static/media/cyber-bg.png": "/react-security-app/public/index.html/static/media/cyber-bg.8dabbdf3c6d3e309f798.png",
+    "static/media/data-bg.png": "/react-security-app/public/index.html/static/media/data-bg.e59a7453e923affba391.png",
+    "index.html": "/react-security-app/public/index.html/index.html",
+    "main.c9750c7f.css.map": "/react-security-app/public/index.html/static/css/main.c9750c7f.css.map",
+    "main.fa3170fb.js.map": "/react-security-app/public/index.html/static/js/main.fa3170fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9761e0f3.css",
+    "static/css/main.c9750c7f.css",
     "static/js/main.fa3170fb.js"
   ]
 }
